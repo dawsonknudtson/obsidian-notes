@@ -11,10 +11,14 @@
             "id": "2c024c004f247126",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Machine Learning/Multiple Linear Regression/Week 2.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Week 2"
             }
           }
         ]
@@ -74,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "d6980a0f7c21da5f",
@@ -163,6 +168,8 @@
   },
   "active": "2c024c004f247126",
   "lastOpenFiles": [
+    "Machine Learning/Multiple Linear Regression/Week 2.md",
+    "Machine Learning/Multiple Linear Regression",
     "Kernoco/Vision.md",
     "\"cheese\", \"mozzarella\"], [\"tomato sauce\", \"ham\", \"pineapple\".md",
     "CEO Interviews.md",
