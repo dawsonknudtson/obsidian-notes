@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "b6f18d424144fee3",
+        "id": "8932ebc1e6b3d80b",
         "type": "tabs",
         "children": [
           {
-            "id": "24332a86ff3c304e",
+            "id": "027217fff32ebe84",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CEO Note's/Nightmare Mode.md",
+                "file": "Interests/Quitting Caffeine.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Nightmare Mode"
+              "title": "Quitting Caffeine"
             }
           }
         ]
@@ -165,8 +165,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "24332a86ff3c304e",
+  "active": "027217fff32ebe84",
   "lastOpenFiles": [
+    "Interests/Quitting Caffeine.md",
+    "Interests",
+    "Career/Software",
+    "Career/Sales",
+    "Career",
     "CEO Note's/Nightmare Mode.md",
     "CEO Note's",
     "CEO Note's/CEO Interviews.md",
@@ -182,9 +187,6 @@
     "Prompt Engineering/pdf/google-prompt-engineering.pdf",
     "--.md",
     "Untitled.canvas",
-    "Prompt Engineering/notes",
-    "Prompt Engineering/pdf",
-    "Prompt Engineering",
     "Welcome.md",
     "create a link.md"
   ]
