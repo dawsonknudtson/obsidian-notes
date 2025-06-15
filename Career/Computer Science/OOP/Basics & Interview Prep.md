@@ -1,6 +1,14 @@
 
 - **Encapsulation** (keeping data private in a class)
-    
+	
+	definition : restricting direct access to some of an object's component's, typically by making variables and methods private and then exposing them through public methods (getters/setters). It protects the internal state and ensures data integrity. 
+
+	Real World Example(s)
+
+		Cannot directly change the balance of bank account. You must call a deposit() or withdraw methods(). The balance field is private
+
+		Car Dashboard : You would not access the engine directly. You press accelerator or brake, and then internal systems(engine or breaks) react accordingly - internally encapsulated 
+
 - **Abstraction** (exposing only what's needed)
     
 - **Inheritance** (base class → derived class)
