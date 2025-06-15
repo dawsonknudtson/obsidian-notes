@@ -21,3 +21,98 @@ public class Dog : Animal {
 
 ```
 
+- **ETL** = Extract, Transform, Load
+    
+    - Extract from source (CSV, API, etc.)
+        
+    - Transform data (cleaning, formatting)
+        
+    - Load into target (DB or data lake)
+        
+- **Data Lake** = A large storage repository that holds raw data (often cloud-based like AWS S3, Snowflake)
+    
+
+📝 **Example:**
+
+> "In an ETL pipeline, we might extract data from an API, convert date formats and filter bad rows in Python, then load the cleaned data into a Snowflake table."
+
+
+- Know how **Models**, **Views**, and **Controllers** work.
+    
+- Understand **Routing**, **HTTP verbs** (GET/POST), **ViewModels**, and **Data Annotations**.
+
+- **SELECT, WHERE, JOIN, GROUP BY, ORDER BY**
+    
+- Writing basic queries, understanding **primary keys**, **indexes**, and **normalization**
+
+```
+SELECT Orders.OrderID, Customers.Name
+FROM Orders
+JOIN Customers ON Orders.CustomerID = Customers.CustomerID
+
+```
+
+- **Arrays, Lists**
+    
+- **Dictionaries / HashMaps**
+    
+- **Stacks / Queues**
+    
+- Know how to use and **loop through them**, add/remove items, etc.
+
+## MOCK INTERVIEW QUESTIONS — PRACTICE ANSWERING
+
+---
+
+### 🔸 **Behavioral & Process Questions**
+
+1. **How do you debug an issue in an app?**
+    
+    > "I start by reproducing the bug, then I check logs, use breakpoints to trace the flow, and isolate where it breaks. I fix the root issue and test again. If needed, I write a unit test to prevent regression."
+    
+2. **How do you prioritize tasks in a bug fix or development sprint?**
+    
+    > "I prioritize based on severity, user impact, and deadline. Critical system-breaking issues come first, followed by user experience and feature work."
+    
+
+---
+
+### 🔸 **Technical Concept Questions**
+
+1. **What are the four pillars of OOP?**
+    
+2. **What’s the difference between a class and an object?**
+    
+3. **What’s the purpose of a constructor?**
+    
+4. **What is the difference between an abstract class and an interface?**
+    
+5. **What is normalization in databases?**
+    
+6. **Explain JOIN vs UNION in SQL.**
+    
+
+---
+
+### 🔸 **.NET + Web Development Questions**
+
+1. **Walk me through the request flow in an ASP.NET MVC app.**
+    
+2. **What’s the difference between ViewBag and ViewData?**
+    
+3. **How do you create a RESTful API endpoint in .NET?**
+    
+4. **What are GET and POST used for?**
+    
+
+---
+
+### 🔸 **ETL / Data Questions**
+
+1. **How would you approach building an ETL process for user data from an API?**
+    
+2. **What challenges could come up with transforming raw data?**
+    
+3. **Why might a company use a data lake instead of a traditional database?**
+    
+4. **What would you do if the data pipeline broke overnight?**
