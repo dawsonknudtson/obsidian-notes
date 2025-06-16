@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "cb16a693a12e2b75",
+        "id": "619eea33c9762bab",
         "type": "tabs",
         "children": [
           {
-            "id": "92e42227e4c50eb0",
+            "id": "51f8c5cc3441d0bd",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "d6980a0f7c21da5f",
@@ -166,7 +165,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "92e42227e4c50eb0",
+  "active": "51f8c5cc3441d0bd",
   "lastOpenFiles": [
     "Career/Computer Science/OOP/Basics & Interview Prep.md",
     "Career/Computer Science/OOP",

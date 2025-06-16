@@ -10,7 +10,18 @@
 		Car Dashboard : You would not access the engine directly. You press accelerator or brake, and then internal systems(engine or breaks) react accordingly - internally encapsulated 
 
 - **Abstraction** (exposing only what's needed)
-    
+
+	definition : The process of hiding complex information and details, and only showing the essential features of the object. It's like showing an interface without exposing the how. 
+
+	Real World Example : 
+
+	Sci-Kit Learn : Using Linear regression function / model - you sort of plug and play variables. You are not seeing or understanding things that go into Linear regression like gradient descent, loss functions, feature engineering(sometimes), optimization logic
+
+	TV Remote : Pressing buttons like up or down without really know the complexity behind them and how they work - or the circuits inside. 
+
+	Apple Pay : When you Tap to Pay - You don't see the NFC, Encryption, Validation (with bank), and all the complex inner logic behind it. 
+
+
 - **Inheritance** (base class → derived class)
     
 - **Polymorphism** (methods behave differently in derived classes)
