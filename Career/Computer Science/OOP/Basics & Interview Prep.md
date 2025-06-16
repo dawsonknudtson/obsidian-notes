@@ -23,7 +23,15 @@
 
 
 - **Inheritance** (base class → derived class)
-    
+
+	definition : Inheritance allows a class to inherit attributes and behaviors(methods) from another class. This promotes code reuse and hierarchy. 
+
+	Example's :
+
+	The `Vehicle` base class might have `start()`, `stop()` methods. Both `Car` and `Bike` inherit those and may add specific features like `playMusic()` in `Car`.
+
+	An `Employee` class has `name`, `salary`. `Manager` and `Engineer` classes inherit those and may add `assignTask()` or `writeCode()`
+
 - **Polymorphism** (methods behave differently in derived classes)
 
 ```
