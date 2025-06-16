@@ -34,6 +34,15 @@
 
 - **Polymorphism** (methods behave differently in derived classes)
 
+	definition : allowing methods with the same name to behave differently depending on the object calling them. It can be compile time(method overloading) or runtime (method overriding)
+
+	Example(s) :
+
+	Shape class may have a method called getArea() --> Circle class may inherit the shape class and call a Override method(Java) to where the getArea in the Circle class returns pier^2 maybe even same case with rectangle class but it has same method but returns length x width instead 
+
+	sendNotification() in a parent class that sends a message. A EmailNotification class might send an email, where as a SMSNotification sends a text - all under the same method name. 
+
+
 ```
 public class Animal {
     public virtual void Speak() {
@@ -41,6 +50,7 @@ public class Animal {
     }
 }
 public class Dog : Animal {
+	## Same method - Difference Function 
     public override void Speak() {
         Console.WriteLine("Dog barks");
     }
