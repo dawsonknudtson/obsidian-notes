@@ -117,31 +117,48 @@ JOIN Customers ON Orders.CustomerID = Customers.CustomerID
 ### 🔸 **Technical Concept Questions**
 
 1. **What are the four pillars of OOP?**
-    
+	    Inheritance, Encapsulation, Abstraction, Polymorphism
+
 2. **What’s the difference between a class and an object?**
-    
+	    Class is sort of a blueprint defines structure and behavior, and an object is an instance of a class 
+	    
 3. **What’s the purpose of a constructor?**
+	    A constructor initializes a new object. It's called automatically when an object is created. You can use it to set default values or inject dependencies.
+	    
+4. ==****What is the difference between an abstract class and an interface?**==
+	    - An **abstract class** can have both implemented methods and abstract (unimplemented) ones. It allows shared code and state.
     
-4. **What is the difference between an abstract class and an interface?**
+	- An **interface** only defines method signatures — no implementation or state.
+	    
+	- You’d use interfaces for defining contracts, and abstract classes for partial implementation sharing
+- 
+2. **What is normalization in databases?**
+	    Removing redundant data - Splitting tables and creating out relationships with foreign keys. whole goal is to reduce bad data and make sure things are running as efficient as possible (example, large tables with lots of data are more difficult to query)
+	
+3. **Explain JOIN vs UNION in SQL.**
+    - **JOIN** combines columns from multiple tables based on a related key (e.g., inner join, left join).
     
-5. **What is normalization in databases?**
-    
-6. **Explain JOIN vs UNION in SQL.**
-    
+	- **UNION** stacks rows from two queries as long as the columns match in number and type — it’s used to combine result sets.
 
 ---
 
 ### 🔸 **.NET + Web Development Questions**
 
 1. **Walk me through the request flow in an ASP.NET MVC app.**
-    
+
+	    When a user sends a request, it hits the **Controller** first. The Controller handles logic, calls the appropriate **Model** to retrieve or update data, and passes that data to a **View**. The View renders the UI and sends it back to the browser.
+	
 2. **What’s the difference between ViewBag and ViewData?**
+	    ***ViewBag** uses dynamic properties.
     
+	- **ViewData** is a dictionary with string keys.  
+	    ViewBag is a bit easier to work with, but ViewData is slightly faster and more flexible for dynamic lookups
+	
 3. **How do you create a RESTful API endpoint in .NET?**
+    Create a controller, and use tags in [httpost], [httpget] and structure routes like api/users (example)
     
 4. **What are GET and POST used for?**
-    
-
+    Get's are used for retrieving data - so read only, and post is used to send data to the server - example you are creating a new user 
 ---
 
 ### 🔸 **ETL / Data Questions**
