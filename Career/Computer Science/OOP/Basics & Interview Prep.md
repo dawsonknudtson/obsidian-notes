@@ -164,9 +164,10 @@ JOIN Customers ON Orders.CustomerID = Customers.CustomerID
 ### 🔸 **ETL / Data Questions**
 
 1. **How would you approach building an ETL process for user data from an API?**
-    
+    First would get the API / Extract it from the source, then I would make the necessary or requested changes to it whether its date formatting or cleanup and then would load it into something like amazon s3 or snowflake 
 2. **What challenges could come up with transforming raw data?**
-    
+    Nulls, Duplicate data possibly, bad variable typing, bad dates
 3. **Why might a company use a data lake instead of a traditional database?**
-    
+    data lakes are more flexible where databases are more strict and confined.
 4. **What would you do if the data pipeline broke overnight?**
+	Logs, Contact team member, start debugging. 
