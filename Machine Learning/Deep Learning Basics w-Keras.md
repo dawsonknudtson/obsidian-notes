@@ -57,3 +57,4 @@ this is accessing the trainable parameters of the model itself,
 this only works if your model has one layer (two parameters)
 
 **** 
+
