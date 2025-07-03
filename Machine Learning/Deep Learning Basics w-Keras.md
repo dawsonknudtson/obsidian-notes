@@ -37,3 +37,23 @@ main differentiator between TPU and CPU or even GPU is they are optimized for de
 [That was just a very very high level overview on what they are]
 
 *****
+
+```
+w, b = model.weights
+```
+
+given this code, within keras, 
+
+Weights (w) are the connections or coefficients learned by the model
+
+Biases (b) are any sort of additional parameters that allow the model to shift output
+
+```
+model.weights
+```
+
+this is accessing the trainable parameters of the model itself, 
+
+this only works if your model has one layer (two parameters)
+
+**** 
