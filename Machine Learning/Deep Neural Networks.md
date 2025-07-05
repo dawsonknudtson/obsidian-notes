@@ -32,3 +32,38 @@ example of a Dense layer
 
 **** 
 
+**Activation Function**
+
+A function applied to each layer's outputs(activations). Most common is the rectifier function max(0,x)
+
+Rectifier Function - also know as ReLU (rectified linear unit)
+
+![A graph of the rectifier function. The line y=x when x>0 and y=0 when x<0, making a 'hinge' shape like '_/'.](https://storage.googleapis.com/kaggle-media/learn/images/aeIyAlF.png)
+
+The function's graph above has a line where the negative part is 'rectified to zero'. Applying this function to outputs of a neuron will put a bend in whatever the data is, moving away from simple lines. 
+
+[More Notes in NoteBook]
+
+*****
+
+Stacking Dense Layers & ReLu
+
+![[Pasted image 20250705141236.png]]
+
+Hidden is because we never see outputs directly. Other tasks (classification) might require an activation function on the output. 
+
+Code below is what builds the image above 
+
+```
+from tensorflow import keras
+from tensorflow.keras import layers
+
+model = keras.Sequential([
+	# Hidden ReLu Layers
+	layers.Dense(units=4, activation='relu', input_shape=[2])
+	layers.Dense(units=3, activation='relu')
+	# linear output layer
+	layers.dense(units=1)
+])
+```
+
