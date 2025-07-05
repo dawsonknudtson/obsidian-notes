@@ -1,3 +1,4 @@
+[[Quitting Caffeine]]
 Note's From CEO of Hyros Alex Becker - YT Videos on Business / Life  
 
 You're brain is almost exactly like a computer, in the sense it derives pleasure as only binary operands, 1's and 0's. It(brain) does not care at all how it gets those 1's and 0's. 
