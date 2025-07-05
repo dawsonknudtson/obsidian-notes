@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "0a26ba4dbc9d2ed5",
+        "id": "8e24a5da79e0fc5e",
         "type": "tabs",
         "children": [
           {
-            "id": "2012a0b5243f400a",
+            "id": "da492468d1bfc9db",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CEO Note's/Nightmare Mode.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Nightmare Mode"
+              "title": "New tab"
             }
           }
         ]
@@ -166,14 +162,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2012a0b5243f400a",
+  "active": "da492468d1bfc9db",
   "lastOpenFiles": [
-    "Machine Learning/Deep Learning Basics w-Keras.md",
-    "Machine Learning/Deep Neural Networks.md",
-    "Machine Learning/Multiple Linear Regression/Week 2.md",
-    "Career/Computer Science/OOP/Basics & Interview Prep.md",
+    "CEO Note's/Nightmare Mode.md",
     "CEO Note's/CEO Interviews.md",
-    "Prompt Engineering/notes/google-guide-prompt-engineering.md",
+    "Career/Projects",
+    "Career/Projects/Kernoco/Vision.md",
+    "Career/Computer Science/Prompt Engineering/pdf/google-prompt-engineering.pdf",
+    "Untitled.canvas",
+    "Career/Machine Learning/Deep Learning Basics w-Keras.md",
+    "Career/Machine Learning/Deep Neural Networks.md",
+    "Career/Machine Learning/Multiple Linear Regression/Week 2.md",
+    "Career/Computer Science/OOP/Basics & Interview Prep.md",
+    "Career/Computer Science/Prompt Engineering/notes/google-guide-prompt-engineering.md",
     "\"tomato sauce\", \"bazel\", \"mozzarella\".md",
     "Pasted image 20250705141236.png",
     "Pasted image 20250703150239.png",
@@ -185,17 +186,12 @@
     "Career/Computer Science",
     "Career/Sales",
     "Career",
-    "CEO Note's/Nightmare Mode.md",
     "CEO Note's",
     "Online Money/Business Idea's.md",
     "Online Money",
-    "Machine Learning/Multiple Linear Regression",
-    "Kernoco/Vision.md",
+    "Career/Machine Learning/Multiple Linear Regression",
     "\"cheese\", \"mozzarella\"], [\"tomato sauce\", \"ham\", \"pineapple\".md",
-    "Kernoco",
-    "Machine Learning",
     "--.md",
-    "Untitled.canvas",
     "Welcome.md",
     "create a link.md"
   ]
