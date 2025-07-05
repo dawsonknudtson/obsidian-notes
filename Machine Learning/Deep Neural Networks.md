@@ -1,3 +1,4 @@
+[[Deep Learning Basics w-Keras]]
 NN organize neurons into layers, when collected together linear units have a common set of inputs and form a dense layer. 
 
 Something that look like this 
@@ -60,10 +61,26 @@ from tensorflow.keras import layers
 
 model = keras.Sequential([
 	# Hidden ReLu Layers
-	layers.Dense(units=4, activation='relu', input_shape=[2])
-	layers.Dense(units=3, activation='relu')
+	layers.Dense(units=4, activation='relu', input_shape=[2]),
+	layers.Dense(units=3, activation='relu'),
 	# linear output layer
-	layers.dense(units=1)
+	layers.Dense(units=1)
 ])
+```
+
+can also split it up so the code could look like this 
+
+```
+model = keras.Sequential([
+	layers.Dense(4, input_shape=[2]),
+	layers.Activation=('relu'),
+
+	layers.Dense(units=3)
+	layers.Activation=('relu)
+])
+```
+
+```
+## Family Variation of relu activation - 'elu', 'selu', 'swish'
 ```
 
