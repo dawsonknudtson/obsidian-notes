@@ -1,4 +1,4 @@
-
+	
 creating model in Keras (just a high-level API), used for building and training deep learning models (primarily neural networks)
 
 example : looking for caloric output given the parameters ( 'sugar', 'fiber', ' protein' )
@@ -57,4 +57,7 @@ this is accessing the trainable parameters of the model itself,
 this only works if your model has one layer (two parameters)
 
 **** 
-
+Testing Math Equations
+$$
+\sum{n=1} ^{N} n
+$$

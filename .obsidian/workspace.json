@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "8e24a5da79e0fc5e",
+        "id": "a30ff4d9d643d76c",
         "type": "tabs",
         "children": [
           {
-            "id": "da492468d1bfc9db",
+            "id": "7369bb82a4eab05d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Career/Computer Science/Big O/Big O.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Big O"
             }
           }
         ]
@@ -74,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "d6980a0f7c21da5f",
@@ -162,15 +165,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "da492468d1bfc9db",
+  "active": "7369bb82a4eab05d",
   "lastOpenFiles": [
+    "Career/Computer Science/Big O/Big O.md",
+    "Career/Computer Science/Big O",
+    "Career/Machine Learning/Deep Learning Basics w-Keras.md",
+    "Interests/Quitting Caffeine.md",
     "CEO Note's/Nightmare Mode.md",
     "CEO Note's/CEO Interviews.md",
     "Career/Projects",
     "Career/Projects/Kernoco/Vision.md",
     "Career/Computer Science/Prompt Engineering/pdf/google-prompt-engineering.pdf",
     "Untitled.canvas",
-    "Career/Machine Learning/Deep Learning Basics w-Keras.md",
     "Career/Machine Learning/Deep Neural Networks.md",
     "Career/Machine Learning/Multiple Linear Regression/Week 2.md",
     "Career/Computer Science/OOP/Basics & Interview Prep.md",
@@ -179,7 +185,6 @@
     "Pasted image 20250705141236.png",
     "Pasted image 20250703150239.png",
     "Pasted image 20250703150114.png",
-    "Interests/Quitting Caffeine.md",
     "Interests/Learning How to Learn Guide.md",
     "Career/Computer Science/OOP",
     "Interests",
@@ -189,7 +194,6 @@
     "CEO Note's",
     "Online Money/Business Idea's.md",
     "Online Money",
-    "Career/Machine Learning/Multiple Linear Regression",
     "\"cheese\", \"mozzarella\"], [\"tomato sauce\", \"ham\", \"pineapple\".md",
     "--.md",
     "Welcome.md",
