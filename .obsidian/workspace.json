@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Interests/Book Summary/Guru Books/Millionaire FastLane Summary.md",
+                "file": "Interests/Book Summary/Guru Books/DotCom Secrets Summary.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Millionaire FastLane Summary"
+              "title": "DotCom Secrets Summary"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "d6980a0f7c21da5f",
@@ -167,8 +168,9 @@
   },
   "active": "50f66d61209c1efd",
   "lastOpenFiles": [
-    "Career/Computer Science/OOP/Technical Questions.md",
     "Interests/Book Summary/Guru Books/Millionaire FastLane Summary.md",
+    "Interests/Book Summary/Guru Books/DotCom Secrets Summary.md",
+    "Career/Computer Science/OOP/Technical Questions.md",
     "Interests/Book Summary/Guru Books",
     "Interests/Book Summary",
     "Untitled.canvas",
