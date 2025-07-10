@@ -67,3 +67,8 @@ Good Resources for practicing these
 - Leetcode
 - NeetCode
 - CodeForces
+
+Things I need to 100% review next couple of months 
+
+- SQL Join's (when to use)
+- Big O (learn)
