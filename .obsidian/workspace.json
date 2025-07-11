@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "6c527380c1b63f1e",
+        "id": "91027fe8356f405d",
         "type": "tabs",
         "children": [
           {
-            "id": "f9d0b0f1ce43aaf9",
+            "id": "7bee72109fc87556",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -162,8 +162,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f9d0b0f1ce43aaf9",
+  "active": "7bee72109fc87556",
   "lastOpenFiles": [
+    "Career/Computer Science/Behavioral Questions & Techniques.md",
     "Career/Computer Science/OOP/Technical Questions.md",
     "Career/Machine Learning/Deep Neural Networks.md",
     "Career/Machine Learning/Deep Learning Basics w-Keras.md",
